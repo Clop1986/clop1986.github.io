@@ -47,6 +47,13 @@ padding-bottom: 22px;
 	cursor: pointer;
 }
 
+.header-button:hover {
+	box-shadow: none;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+}
+
 header small {
 	font-size: 12px;
 	display: block;
@@ -66,7 +73,7 @@ header small {
 	width: 56%;	
 	position: absolute;
 	left: 10.6%;
-	top: 17%;
+	top: 17%;	
 }
 
 /* Секция портфолио */
@@ -175,6 +182,14 @@ footer {
 	border-radius: 50px;
 	padding: 12px 40px;
 	cursor: pointer;
+}
+
+.footer-button:hover {
+	background-color: #fff;
+	color: #3a7dfd;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
 }
 
 @media (max-width: 1200px) {
